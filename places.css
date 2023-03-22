@@ -1,0 +1,45 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.iimg{
+    background-color: red;
+    height: 110px;
+    width: 120px;
+    margin-top: -2rem;
+    border-radius: 15px;
+    /* margin-left: 23rem; */
+}
+.container{
+    margin-top: 2%;
+}
+.ttot{
+    padding: 10px;
+    background-color:black;
+    border-radius: 20px;
+}
+.ddiv2{
+    padding-left: 10px;
+    padding-right: 20px;
+}
+.taj{
+    padding-left: 5px;
+}
+.bcolor{
+   
+    padding: 20px;
+    /* background-color: aqua; */
+    background-image: url(wall.jpg);
+    background-size: contain;
+}
+.favh{
+    color: white;
+    font-weight: 400;
+}
+.textt{
+    color: white;
+}
+.favp{
+    color: white;
+    text-decoration: underline;
+}

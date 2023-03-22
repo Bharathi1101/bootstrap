@@ -1,0 +1,22 @@
+.hh1{
+    color: red;
+
+}
+.hh2{
+    color: blue ;
+    font-family: 'Times New Roman', Times, serif !important;
+    font-size: 20px !important;
+
+}
+.hh2{
+    color:green !important;
+    text-decoration: overline !important;
+}
+.hh2{
+    color: aqua;
+    font-size: 20px;
+    text-decoration: underline;
+}
+.hh3{
+    color: blue;
+}
