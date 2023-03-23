@@ -1,0 +1,82 @@
+.media{
+    background-image: url("two.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 400px;
+    padding: 50px;
+}
+h1{
+    color: red;
+}
+h2{
+    color:green;
+}
+p{
+    color: blue;
+}
+
+@media screen and (max-width:480px) {
+   
+    .media{
+        background-image: url("one.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: blue;
+    }
+    h2{
+        color:red;
+    }
+    p{
+        color: green;
+    }
+    button{
+        border-radius: 10px;
+        background-color: red;
+    }
+}
+
+@media only screen and (min-width:481px) and (max-width:800px){
+   
+    .media{
+        background-image: url("three.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color:blueviolet;
+    }
+    h2{
+        color:aqua;
+    }
+    p{
+        color:chartreuse;
+    }
+    button{
+        border-radius: 20px;
+        background-color: green;
+    }
+}
+
+@media only screen and (min-width:801px) and (max-width:1000px){
+   
+    .media{
+        background-image: url("villa.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color:blueviolet;
+    }
+    h2{
+        color:aqua;
+    }
+    p{
+        color:chartreuse;
+    }
+    button{
+        border-radius: 20px;
+        background-color: blueviolet;
+    }
+}
