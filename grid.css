@@ -1,0 +1,26 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.firsthalf{
+    height: 400px;
+    background-image: url("travel.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width :100%;
+}
+.nav1{
+    margin-top: 2%;
+    float: right;
+    margin-right: 50px;
+}
+.nav-item{
+    margin-right:4px;
+}
+.travel{
+    margin-right: 37rem;
+}
+.nav-link{
+    font-weight:500 ;
+    color: black;
+}

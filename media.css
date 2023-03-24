@@ -1,8 +1,13 @@
+.main{
+    display: flex;
+
+}
 .media{
     background-image: url("two.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     height: 400px;
+    
     padding: 50px;
 }
 h1{
@@ -14,6 +19,12 @@ h2{
 p{
     color: blue;
 }
+.query{
+    height: 400px;
+    /* width: 400px; */
+    background-image: url("ben2.jpg");
+}
+
 
 @media screen and (max-width:480px)  {
    
@@ -37,7 +48,9 @@ p{
     }
 }
 
-@media only screen and (min-width:481px) and (max-width:800px){
+
+
+@media screen and (min-width:481px) and (max-width:800px){
    
     .media{
         background-image: url("three.jpg");
@@ -78,5 +91,27 @@ p{
     button{
         border-radius: 20px;
         background-color: blueviolet;
+    }
+}
+
+@media screen and (min-width:720px) and (max-width:900px)  {
+   
+    .query{
+        background-image: url("ben3.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    h1{
+        color: blue;
+    }
+    h2{
+        color:red;
+    }
+    p{
+        color: green;
+    }
+    button{
+        border-radius: 10px;
+        background-color: red;
     }
 }
